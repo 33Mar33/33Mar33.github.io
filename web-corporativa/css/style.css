@@ -1,0 +1,122 @@
+body{
+    font-family: verdana, sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+
+}
+#wrapper{
+	width: 92%;
+	border: 1px solid #e3e3e3;
+	min-height: 400px;
+	background-color: #FF8000;
+	margin: 0 auto;
+	box-shadow: 5px 5px 20px #9f9f9f;
+}
+header{
+	height: 100px;
+	background-color: #fff;
+}
+a.logo{
+	font-size: 35px;
+	color: #b8dfee;
+	font-family: 'mali', cursive;
+
+}
+#logo{
+	float: left;
+	width: 33.3%;
+	box-sizing: border-box;
+	padding: 0.1em;
+}
+#site-search{
+	float: left;
+	width: 66.6%;
+	text-align: right;
+	box-sizing: border-box;
+	padding: 1em 1.5em;
+}
+#main-navigation{
+	background-color: #FFFF00;
+}
+#overview{
+	background-color: #D8D8D8;
+	height: 200px;
+	color: #0f0f0f;
+	padding: 1em;
+	padding-top: 2em;
+
+
+}
+.service{
+	width: 300px;
+	height: 300px;
+	float: left;
+	width: 33.3%;
+	box-sizing: border-box;
+	padding: 1em;
+	border: 3px solid #FF8000;
+	border-radius: 15px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+}
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+footer{
+	text-align: center;
+	padding: 2em;
+	background-color: #fff;
+	font-weight: bold;
+}
+nav {
+  width: 100%;
+  background-color: #65A8A6;
+}
+
+nav ul li {
+  display:inline-block;  
+
+}
+
+nav a {
+  color:#000000;
+  display:block;
+  text-decoration: none;
+  padding:20px 30px;
+ }
+
+nav a:hover {
+  background: #E65540;
+  transition: all 0.9s;
+}
+
+.menu-trigger {
+  display:none;
+  color: #F8ECC2;
+}
+
+@media screen and (max-width:500px) {
+  .menu-trigger {
+    display:block;
+
+}
+ nav ul li {
+    display:block;
+    border-top:1px #79896D solid; 
+
+}
+ nav ul {
+    display:none;
+
+}
