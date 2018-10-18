@@ -1,0 +1,92 @@
+body{
+	background-color: #fff;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;	
+}
+header{
+	background-color: #B1DBC3;
+	height: 100px;
+	padding-bottom: 8px;
+	text-align: center;
+
+}
+header img{
+	margin-top: 1em;
+	width: 245px;
+	height: auto;
+}
+nav{
+	width: 33.3%;
+	margin-right: 16px;
+}
+.menu{
+	margin-bottom: 1px;
+}
+main{
+	width: 66.6%;
+	margin-bottom: 5em;
+}
+.caja{
+	border: 1px solid #000000;
+	padding: 1em;
+	margin: 1em;
+}
+main{
+	padding-left: 25em;
+	float: left;
+	width: calc(70% - 1em);
+}
+h1{
+	color: #77A8A6;;
+	margin-left: 1em;
+	font-size: 32px;
+}
+h2{
+	color: #486175;
+	font-size: 24px;
+	margin-bottom: 0.5em;
+}
+p{
+	color: #0A060F;
+	font-size: 16px;
+
+}
+a{
+	color: #B1DBC3;
+	text-decoration: none;
+
+}
+.noticia{
+	padding: 1em;
+	margin: 1em;
+
+}
+footer{
+	margin: 5px;
+	clear: both;
+	background-color: #222442;
+	text-align: right;
+	color: #fff;
+	padding-right: 1em;
+}
+.pie{
+	margin-bottom: 5px;
+	color: #fff;
+}
+.boton{
+	text-decoration: none;
+}
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
