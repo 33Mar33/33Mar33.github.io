@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>layout</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Port+Lligat+Sans" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<span class="logo">layout</span>
+	</header>
+	<nav class="nav-horizontal">
+		<ul>
+			<li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="blog.html"><i class="fa fa-edit"></i>Blog</a></li>
+			<li><a href="stock.html"><i class="far fa-calendar-alt"></i>Stock</a></li>
+			<li><a href="contact.html"><i class="fas fa-envelope-open"></i>Contact</a></li>
+		</ul>
+	</nav>
+	<section class="front-article">
+		<article>
+			<h2>Formulario de contacto</h2>
+			<form action="">
+				<fieldset>
+					<label for="nombre"><i class="fa fa-user"></i>Nombre</label>
+					<input type="text" name="nombre" id="nombre" placeholder="Tu nombre de pila" required>
+				</fieldset>
+				<fieldset>	
+					<label for="apellidos"><i class="fa fa-user-tag"></i>Apellidos</label>
+					<input type="text" name="apellidos" id="apellidos" placeholder="Tus dos apellidos" required>
+				</fieldset>
+				<fieldset>	
+					<label for="email"><i class="fa fa-envelope"></i>E-mail</label>
+					<input type="email" name="email" id="email" placeholder="Tu correo electrónico" required>
+				</fieldset>
+				<fieldset>
+					<label for="pais"><i class="fa fa-globe"></i>País</label>
+					<select name="pais" id="pais">
+						<option value="es">España</option>
+						<option value="uk">Mongolia</option>
+						<option value="usa">Mandarina</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<label for="sexo"><i class="fa fa-user-circle"></i>Sexo</label>
+	    					<input type="radio" name="sexo" value="Hombre"> Hombre
+	    					<input type="radio" name="sexo" value="Mujer"> Mujer
+	    					<input type="radio" name="sexo" value="Sindefinir"> Sin definir
+	  			</fieldset>
+	  			<fieldset>
+	  				<label for="intereses"><i class="far fa-grin-beam"></i>Intereses</label>
+    					<input type="checkbox" name="coches" value="gusta"> Coches
+    					<input type="checkbox" name="deportes" value="gusta"> Deportes
+   						<input type="checkbox" name="cideojuegos" value="gusta"> Videojuegos
+  	  			</fieldset>
+  	  			<br>
+  	  			<fieldset>
+  	  				<legend>Observaciones</legend>
+  	  				<textarea name="foo_textarea" id=""></textarea>
+
+  	  			</fieldset>
+				<input type="submit" name="Enviar">
+			</form>			
+		</article>
+	</section>
+	<aside>
+		<h2>Siguenos en Twitter</h2>
+		<a class="twitter-timeline" data-width="600" data-height="400" data-theme="dark" href="https://twitter.com/Josemicod5?ref_src=twsrc%5Etfw">Tweets by Josemicod5</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+	</aside>
+	<div class="clearfix"></div>
+	<footer>
+		
+	</footer>
+</body>
+</html>
