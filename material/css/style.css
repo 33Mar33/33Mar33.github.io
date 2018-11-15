@@ -1,0 +1,13 @@
+body{
+	font-size: 15px;
+}
+.navbar-brand img {
+	width: 5%;
+
+}
+.navbar-nav img{
+	width: 5%;
+}
+.carousel-item {
+	height: 40em;
+}
